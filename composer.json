@@ -1,6 +1,7 @@
 {
     "name": "smetaniny/sm-laravel-image",
     "description": ":Обработка изображений laravel",
+    "keywords": ["image", "imagick", "laravel", "watermark", "thumbnail"],
     "license": "MIT",
     "authors": [
         {
