@@ -63,6 +63,7 @@ use Smetaniny\LaravelImage\Image;
  *
  * @method Image watermark(string $watermarkPath, int $x, int $y, int $opacity = 50):
  *     Image Добавляет водяной знак на изображение.
+ *
  */
 interface ImageInterface
 {
