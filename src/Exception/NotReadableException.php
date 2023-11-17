@@ -1,6 +1,6 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Exception;
+namespace Smetaniny\SmLaravelAdmin\Exception;
 
 use Nette\Utils\ImageException;
 

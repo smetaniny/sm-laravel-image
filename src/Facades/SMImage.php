@@ -1,9 +1,9 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Facades;
+namespace Smetaniny\SmLaravelAdmin\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Smetaniny\LaravelImage\Image;
+use Smetaniny\SmLaravelAdmin\Image;
 
 /**
  * Фасад для удобного доступа к функциональности работы с изображениями

@@ -1,10 +1,10 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Commands;
+namespace Smetaniny\SmLaravelAdmin\Commands;
 
 use Illuminate\Http\Response;
 use ImagickException;
-use Smetaniny\LaravelImage\Contracts\ImageInterface;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageInterface;
 
 /**
  * Команда для возврата изображения как HTTP-ответ.

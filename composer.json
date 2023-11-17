@@ -1,7 +1,7 @@
 {
     "name": "smetaniny/sm-laravel-image",
     "description": ":Обработка изображений laravel",
-    "keywords": ["image", "imagick", "laravel", "watermark", "thumbnail"],
+    "keywords": ["image", "imagick", "laravel", "watermark", "thumbnail", "LaravelImage"],
     "license": "MIT",
     "authors": [
         {
@@ -11,10 +11,6 @@
         }
     ],
     "homepage": "https://github.com/smetaniny/sm-laravel-image",
-    "keywords": [
-        "Laravel",
-        "LaravelImage"
-    ],
     "require": {
         "illuminate/support": "~9"
     },

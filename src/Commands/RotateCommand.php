@@ -1,10 +1,10 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Commands;
+namespace Smetaniny\SmLaravelAdmin\Commands;
 
 use ImagickException;
-use Smetaniny\LaravelImage\Contracts\ImageInterface;
-use Smetaniny\LaravelImage\Image;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageInterface;
+use Smetaniny\SmLaravelAdmin\Image;
 
 /**
  *Поворота изображения.

@@ -1,11 +1,11 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Commands;
+namespace Smetaniny\SmLaravelAdmin\Commands;
 
 use Imagick;
 use ImagickException;
-use Smetaniny\LaravelImage\Contracts\ImageInterface;
-use Smetaniny\LaravelImage\Image;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageInterface;
+use Smetaniny\SmLaravelAdmin\Image;
 
 /**
  * Команда для добавления водяного знака на изображение.

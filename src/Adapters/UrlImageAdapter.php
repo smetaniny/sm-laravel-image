@@ -1,14 +1,14 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Adapters;
+namespace Smetaniny\SmLaravelAdmin\Adapters;
 
 use Imagick;
 use ImagickException;
 use ImagickPixel;
-use Smetaniny\LaravelImage\Contracts\ImageAdapterInterface;
-use Smetaniny\LaravelImage\Contracts\ImageInterface;
-use Smetaniny\LaravelImage\Exception\NotReadableException;
-use Smetaniny\LaravelImage\Image;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageAdapterInterface;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageInterface;
+use Smetaniny\SmLaravelAdmin\Exception\NotReadableException;
+use Smetaniny\SmLaravelAdmin\Image;
 
 /**
  * Адаптер для создания объекта изображения на основе данных, полученных по URL-адресу

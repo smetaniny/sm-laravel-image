@@ -1,15 +1,15 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Factories;
+namespace Smetaniny\SmLaravelAdmin\Factories;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Http\UploadedFile;
-use Smetaniny\LaravelImage\Adapters\FilePathImageAdapter;
-use Smetaniny\LaravelImage\Adapters\UploadedFileImageAdapter;
-use Smetaniny\LaravelImage\Adapters\UrlImageAdapter;
-use Smetaniny\LaravelImage\Contracts\ImageFactoryInterface;
-use Smetaniny\LaravelImage\Contracts\ImageInterface;
-use Smetaniny\LaravelImage\Exception\NotReadableException;
+use Smetaniny\SmLaravelAdmin\Adapters\FilePathImageAdapter;
+use Smetaniny\SmLaravelAdmin\Adapters\UploadedFileImageAdapter;
+use Smetaniny\SmLaravelAdmin\Adapters\UrlImageAdapter;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageFactoryInterface;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageInterface;
+use Smetaniny\SmLaravelAdmin\Exception\NotReadableException;
 
 /**
  * Фабрика для создания экземпляра класса ImageFacade на основе предоставленных данных (файла, URL и т. д.)

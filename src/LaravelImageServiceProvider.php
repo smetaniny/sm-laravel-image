@@ -1,13 +1,13 @@
 <?php
 
-namespace Smetaniny\LaravelImage;
+namespace Smetaniny\SmLaravelAdmin;
 
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Сервис-провайдер предоставляет функциональность пакета. Регистрирует сервисы и настраивает конфигурацию пакета
  */
-class LaravelImageServiceProvider extends ServiceProvider
+class LaravelAdminServiceProvider extends ServiceProvider
 {
     /**
      * Загрузка всех необходимых сервисов пакета.

@@ -1,20 +1,20 @@
 <?php
 
-namespace Smetaniny\LaravelImage;
+namespace Smetaniny\SmLaravelAdmin;
 
 use BadMethodCallException;
 use Imagick;
 use ImagickException;
-use Smetaniny\LaravelImage\Contracts\ImageInterface;
-use Smetaniny\LaravelImage\Exception\NotReadableException;
-use Smetaniny\LaravelImage\Factories\ImageFactory;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageInterface;
+use Smetaniny\SmLaravelAdmin\Exception\NotReadableException;
+use Smetaniny\SmLaravelAdmin\Factories\ImageFactory;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
 /**
  * Класс ImageFacade представляет изображение и методы для работы с ним.
  *
  * Class ImageFacade
- * @package Smetaniny\LaravelImage
+ * @package Smetaniny\SmLaravelAdmin
  */
 class Image implements ImageInterface
 {
@@ -82,7 +82,7 @@ class Image implements ImageInterface
         }
 
         // Формируем имя команды
-        $commandClassName = '\Smetaniny\LaravelImage\Commands\\' . ucfirst($method) . 'Command';
+        $commandClassName = '\Smetaniny\SmLaravelAdmin\Commands\\' . ucfirst($method) . 'Command';
 
         // Проверяем, существует ли класс стратегии
         if (class_exists($commandClassName)) {

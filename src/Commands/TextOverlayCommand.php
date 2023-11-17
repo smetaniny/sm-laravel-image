@@ -1,6 +1,6 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Commands;
+namespace Smetaniny\SmLaravelAdmin\Commands;
 
 use Imagick;
 use ImagickDraw;
@@ -8,8 +8,8 @@ use ImagickDrawException;
 use ImagickException;
 use ImagickPixel;
 use ImagickPixelException;
-use Smetaniny\LaravelImage\Contracts\ImageInterface;
-use Smetaniny\LaravelImage\Image;
+use Smetaniny\SmLaravelAdmin\Contracts\ImageInterface;
+use Smetaniny\SmLaravelAdmin\Image;
 
 /**
  * Команда для добавления текстового наложения на изображение.

@@ -1,12 +1,12 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Contracts;
+namespace Smetaniny\SmLaravelAdmin\Contracts;
 
 use Imagick;
 use ImagickException;
-use Smetaniny\LaravelImage\Exception\NotReadableException;
+use Smetaniny\SmLaravelAdmin\Exception\NotReadableException;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use Smetaniny\LaravelImage\Image;
+use Smetaniny\SmLaravelAdmin\Image;
 
 /**
  * Интерфейс для объекта изображения.

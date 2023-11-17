@@ -1,6 +1,6 @@
 <?php
 
-namespace Smetaniny\LaravelImage\Contracts;
+namespace Smetaniny\SmLaravelAdmin\Contracts;
 
 /**
  * Интерфейс для адаптера, создающего объект изображения на основе предоставленных данных
